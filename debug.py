@@ -49,22 +49,23 @@ print(f"Final List: {cleaned}")
 
 
 #COMMENTS FOR THE NEW LIST
+
  # I ran the previous code and noticed that the output was not correct.
  
-    # Some odd numbers were still appearing because the list was being modified during iteration.
+# Some odd numbers were still appearing because the list was being modified during iteration.
 
-    # Original error: Removing items from the same list while looping through it caused some elements to be skipped.
+# Original error: Removing items from the same list while looping through it caused some elements to be skipped.
 
-    # To solve this, I decided to create a new list instead of modifying the original list.
+# To solve this, I decided to create a new list instead of modifying the original list.
 
-     # Create a new list to store only even numbers
+# Create a new list to store only even numbers
 
-       # Loop through each number in the original list
+# Loop through each number in the original list
 
-        # Check if the number is even
+# Check if the number is even
       
-            # If it is even, add it to the new list
+ # If it is even, add it to the new list
          
-    # After checking all numbers, return the new cleaned list
+# After checking all numbers, return the new cleaned list
 
-    # After running the code again, the output matched the expected result.
+# After running the code again, the output matched the expected result.
